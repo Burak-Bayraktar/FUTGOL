@@ -1,0 +1,13 @@
+/*
+Kodların yazımı: 2 Nisan, Menü eklemesi: 7 Nisan, Yayın akışı eklemesi: 28 Nisan (Rafet Burak Bayraktar)
+*/
+
+body { background:#e8e6e7; background-attachment:fixed; background-size:cover; }
+table { background-color:#FFFFD2; }
+td.kadro a { text-decoration:none; color:black; font-weight:bold; }
+td.kadro a:hover { color:red; text-decoration:underline }
+td.baslik { text-align:center; font:20px bold; }
+.takımlar a { text-decoration:none; color:black }
+.takımlar a:hover { color:#666;}
+.altbaslik { font-weight:bold; text-align:center }
+.yanbaslik { text-align: center; }

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*
+Kodların yazımı: 2 Nisan, Menü eklemesi: 7 Nisan, Yayın akışı eklemesi: 28 Nisan (Rafet Burak Bayraktar)
+*/
+
+body { background:#e8e6e7; background-attachment:fixed; background-size:cover }
+table { background-color: #FFFFD2; text-align: center; font-weight: normal; }
+/*Tablo başlıkları.*/
+.div { float:left; width:499px; height:50px; padding-top:15px }
+.div1 { float:left; width:50px;	height:65px; margin:0px; padding:0px }
+.div2 { display:block; padding: 0 30px 0 0 }
+.div3 { float:left; width:646px; height:50px; padding-top:10px; padding-left:50px }
+.div4 { height:30px; padding: 20 0 0 50 }
+td.puantablosu { background-color:#ffffb6; font-weight:bold }
+tr.haftalar td { background-color:#ffffb6; font-weight:bold; padding-left:35px; }
+tr td.sola.tarihler { text-align:left; width:161px }
+td.logolar { width:20px; height:20px }
+td.takimisimleri { width:190px;}
+td.sonuclar { font-weight:bold; width:97px; background-color:#ffffb6; }
+td.detaylar { width:129px;}
+td.detaylar a { text-decoration:none; color:black; }
+td.detaylar a:hover { text-decoration:underline; color:#F00; font-weight:bold }
+/*Gaziantepspor bilgi bölmesi. Sadece ST2.Lig 2018/2019 sezonunda bulunmaktadır.*/
+tr .bilgi { text-align: right; font-size: 9px; }
+/*Bucaspor bilgi bölmesi. Sadece ST2.Lig 2018/2019 sezonunda bulunmaktadır.*/
+tr .bilgi2 { font-size: 9px; text-align: right; }
+/*AdanaDemirspor-Ümreniyespor maçı bilgi bölmesi. Sadece ST1.Lig 2018/2019 sezonunda bulunmaktadır. Puan Durumu tablo altı bilgi bölmesi. ST1.Lig/ST2.Lig'de bulunmaktadır.*/
+td.bilgi3 { font-size: 9px; text-align: right; border:none; }
+tr .bilgi3 { font-size: 9px; }
+tr .bilgi3 a { color: black; text-decoration:none; }
+/*Puan Durumu tablo altı bilgi bölmesi.*/
+.bilgisol .sampiyon { display:block; width:55px; margin:auto 3px; background-color:#afd179; float:left; font-size:12px; }
+.bilgisol .playoff { display:block; width:55px; margin:auto 3px;; background-color:#c3dc9a; float:left; font-size:12px; }
+.bilgisol .kumedusenler { display:block; width:80px; margin:auto 3px; background-color:#f8a7a3; float:left; font-size:12px; }
+.bilgisol .slsamp { display:block; width:125px; margin:auto 3px; background-color:#afd179; float:left; font-size:12px; }
+.bilgisol .sleleme { display:block; width:100px; margin:auto 3px;; background-color:#c3dc9a; float:left; font-size:12px; }
+.bilgisol .uel3tur { display:block; width:100px; margin:auto 3px; background-color:#bdd9ef; float:left; font-size:12px; }
+.bilgisol .uel2tur { display:block; width:100px; margin:auto 3px;; background-color:#a5cce9; float:left; font-size:12px; }
+
+/*Yukarı kısayol.*/
+.yukarıok { float:right; width:30px; }
+
+ 

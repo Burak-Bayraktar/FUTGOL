@@ -1,0 +1,15 @@
+/*
+Kodların yazımı: 2 Nisan, Menü eklemesi: 7 Nisan, Yayın akışı eklemesi: 28 Nisan (Rafet Burak Bayraktar)
+*/
+
+body { background:#e8e6e7; background-attachment:fixed; background-size:cover; }
+table { background-color:#FFFFD2; text-align: center; }
+.baslik { text-align:center; }
+.altbaslik { text-align:center; color:#4b7bec; font-weight:bold }
+.icerik { text-align:center }
+.icerik:hover { font-weight:bold }
+.altbaslik:hover icerik { background-color:#0C9}
+.foto { height:65px; width:50px; float:left; }
+.yazi { height:65px; width:518px; float:left; }
+.oyuncufoto img { width:28px; height:36px; }
+.gkbilgi { font-size:10px; text-align:right; background:#e8e6e7; }
